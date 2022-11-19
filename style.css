@@ -96,6 +96,7 @@
     gap:25px;
     justify-content: end;
     font-family: 'Gotu', sans-serif;
+    box-shadow: 0px 4px 30px rgb(84, 77, 77);
 }
 .arrivals__content-box:hover{
     transition: 0.5s;
@@ -125,6 +126,7 @@
     gap:25px;
     justify-content: end;
     font-family: 'Gotu', sans-serif;
+    box-shadow: 0px 4px 30px rgb(84, 77, 77);
 }
 .arrivals__content-boxsecond:hover{
     transition: 0.5s;
@@ -135,6 +137,7 @@
     flex-direction: row;
     gap: 30px;
     margin: 50px 20px;
+    margin-top: 150px;
 }
 .arrivals__text-subtitle{
     text-transform: uppercase;
@@ -167,4 +170,123 @@
 .arrivals__text-link:hover{
     color: rgb(153, 94, 94);
     transition: 0.5s;
+}
+.section__gradient{
+    height: 791px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.section__gradient-box{
+    background-color: #d597a0;
+    height: 690px;
+    width: 95%;
+    display: flex;
+    border-radius: 9px;
+    font-family: 'Gotu', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 43px;
+    box-shadow: 0px 10px 100px rgb(209, 148, 148);
+}
+.section__gragient-text{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(86, 57, 57);
+    letter-spacing: 2px;
+}
+.section__gragient-link{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(86, 57, 57);
+    text-decoration: none;
+    transition: 0.5s;
+    letter-spacing: 3px;
+}
+.section__gragient-link:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.section__gradient-title{
+    color: rgb(86, 57, 57);
+    font-size: 40px;
+}
+.section__social{
+    height: 791px;
+    width: 100%;
+    font-family: 'Gotu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+}
+.instagram__link-title{
+    font-size: 34px;
+    text-decoration: none;
+    color: black;
+    line-height: 55px;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.instagram__link-title:hover{
+    color: rgb(153, 94, 94);
+    transition: 0.5s;
+}
+.instagram__link-subtitle{
+    font-size: 22px;
+    text-decoration: none;
+}
+.instagram__small-images{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.inst__image{
+    width: 150px;
+}
+.inst__image-big{
+    width: 420px;
+}
+.instagram__img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.instagram__logo{
+    position: absolute;
+    margin-left: 40px;margin-top: 200px;
+}
+.subscribe__advertisment{
+    background-color: rgb(57, 57, 57);
+    width: 96%;
+    height: 90px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: absolute;
+    left: 2%;
+    font-family: 'Gotu', sans-serif;
+}
+.advert__link{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    margin-right: 40px;
+}
+.advert__link:hover{
+    color: rgb(153, 94, 94);
+    transition: 0.5s;
+}
+.advert__text{
+    margin-left: 40px;
 }
